@@ -1,0 +1,16 @@
+🧠 SmartFlow Pipeline Components (Complete)
+| 🔧 Module | ✅ Status | 📁 File/Folder | 📝 Description | 
+| Config Loader | ✅ | config/config.yml, load_config.py | Centralized configuration for all modules | 
+| Sample Data | ✅ | data/sample_input.csv | Realistic website traffic simulation | 
+| Ingestion | ✅ | ingestion/airflow_dag.py | Moves raw data to preprocessing | 
+| Preprocessing | ✅ | preprocessing/clean_data.py | Cleans, sorts, and scales data | 
+| Model Training | ✅ | model/train_model.py | Fits Isolation Forest model | 
+| Prediction | ✅ | model/predict.py | Detects anomalies with hybrid logic | 
+| Alerts | ✅ | alerts/send_alert.py | Sends email notifications on anomaly detection | 
+| Dashboard | ✅ | dashboard/app.py | Streamlit visualization for monitoring spikes | 
+| Pipeline Runner | ✅ | run_pipeline.py | Executes the end-to-end flow with config-driven logic | 
+| Requirements | ✅ | requirements.txt | Contains all dependencies for reproducibility | 
+
+
+
+

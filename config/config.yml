@@ -1,0 +1,29 @@
+# SmartFlow Pipeline Configuration
+
+# --- Data Paths ---
+input_file: data/sample_input.csv
+raw_data_file: preprocessing/raw_data.csv
+processed_data_file: preprocessing/processed_data.csv
+model_file: model/isolation_forest.pkl
+output_file: output/results.json
+
+# --- Model Parameters ---
+model_type: isolation_forest
+contamination: 0.05
+random_state: 42
+
+# --- Business Logic ---
+hybrid_mode: true
+anomaly_multiplier: 2.5
+
+# --- Notification Settings (optional for alerts module) ---
+enable_alerts: true
+alert_method: email
+email_recipient: user@yahoo.com
+smtp_server: smtp.example.com
+smtp_port: 587
+smtp_user: user
+smtp_password: your_app_password
+
+# --- Logging ---
+log_level: INFO

@@ -1,0 +1,35 @@
+smartflow-ai-pipeline/
+│
+├── data/                      # Sample datasets or raw input files
+│   └── sample_input.csv
+│
+├── ingestion/                # Apache NiFi flows or Airflow DAGs
+│   └── airflow_dag.py
+│
+├── preprocessing/            # Python scripts for data cleaning
+│   └── clean_data.py
+│
+├── model/                    # ML training and inference modules
+│   ├── train_model.py
+│   └── predict.py
+│
+├── output/                   # Storage simulation (e.g. JSON logs)
+│   └── results.json
+│
+├── alerts/                   # Notification scripts (Email, SNS)
+│   └── send_alert.py
+│
+├── dashboard/                # Streamlit or Dash app for visualization
+│   └── app.py
+│
+├── config/                   # Configuration files
+│   └── config.yml
+│
+├── tests/                    # Unit tests
+│   ├── test_clean_data.py
+│   └── test_model.py
+├── run_pipeline.py
+├── requirements.txt          # Python dependencies
+├── README.md                 # Your README
+├── LICENSE                   # License file (e.g. MIT)
+└── .gitignore                # Gitignore to exclude local files
